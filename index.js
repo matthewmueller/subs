@@ -12,7 +12,7 @@ module.exports = subs;
  *   template('hi my name is {name}', { name: 'matt' })
  *   template('hi my name is {name}')({ name: 'matt' })
  *
- * @param {String} subs
+ * @param {String} str
  * @param {Object} obj
  * @return {String}
  * @api private
