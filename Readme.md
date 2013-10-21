@@ -1,5 +1,5 @@
 
-# tpl
+# subs
 
   tiny string substitution
 
