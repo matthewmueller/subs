@@ -8,7 +8,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install matthewmueller/subl
+    $ component install matthewmueller/subs
 
   Install with npm:
 
