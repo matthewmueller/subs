@@ -3,6 +3,17 @@
 
   tiny string substitution
 
+
+## Installation
+
+  Install with [component(1)](http://component.io):
+
+    $ component install matthewmueller/subl
+
+  Install with npm:
+
+    $ npm install subs
+
 ## Example
 
 ```js
@@ -15,12 +26,6 @@ var tpl = 'my favorite {food} is: {name}';
 var fn = subs(tpl);
 var str = fn({ food: 'fruit', name: 'peach' });
 ```
-
-## Installation
-
-  Install with [component(1)](http://component.io):
-
-    $ component install matthewmueller/tpl
 
 ## Test
 
