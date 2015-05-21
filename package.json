@@ -1,8 +1,12 @@
 {
   "name": "subs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "tiny string substitution",
-  "keywords": ["template", "substitution", "string"],
+  "keywords": [
+    "template",
+    "substitution",
+    "string"
+  ],
   "devDependencies": {
     "mocha": "*",
     "better-assert": "*"

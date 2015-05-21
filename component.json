@@ -2,8 +2,12 @@
   "name": "subs",
   "repo": "matthewmueller/subs",
   "description": "tiny string substitution",
-  "version": "0.0.1",
-  "keywords": ["template", "substitution", "string"],
+  "version": "1.0.0",
+  "keywords": [
+    "template",
+    "substitution",
+    "string"
+  ],
   "license": "MIT",
   "main": "index.js",
   "scripts": [
