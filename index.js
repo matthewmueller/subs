@@ -21,6 +21,6 @@ module.exports = subs;
 function subs(str, obj) {
   if (1 == arguments.length) return function(obj) { return subs(str, obj) };
   return str.replace(/\{([^\}]+)\}/g, function(match, key) {
-    return obj[key] || '';
+    return typeof obj[key] != undefined ? obj[key] : '';
   });
 }
