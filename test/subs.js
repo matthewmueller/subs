@@ -13,4 +13,10 @@ describe('subs', function() {
   it('(str)(obj)', function() {
     assert(res == subs(str)(obj));
   });
+
+  it('should work with nested objects', function() {
+    var obj = { company: { name: 'apple' } }
+    var str = 'hi from {company.name}';
+    assert(subs(str, obj) == 'hi from apple')
+  })
 });

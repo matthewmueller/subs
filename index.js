@@ -1,4 +1,10 @@
 /**
+ * Module Dependencies
+ */
+
+var get = require('dot-prop').get;
+
+/**
  * Expose `subs`
  */
 
@@ -21,6 +27,7 @@ module.exports = subs;
 function subs(str, obj) {
   if (1 == arguments.length) return function(obj) { return subs(str, obj) };
   return str.replace(/\{([^\}]+)\}/g, function(match, key) {
-    return obj[key] == undefined ? '' : obj[key];
+    var v = get(obj, key);
+    return v == undefined ? '' : v;
   });
 }

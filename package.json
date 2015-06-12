@@ -11,5 +11,8 @@
     "mocha": "*",
     "better-assert": "*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dot-prop": "^2.1.0"
+  }
 }
