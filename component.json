@@ -2,7 +2,7 @@
   "name": "subs",
   "repo": "matthewmueller/subs",
   "description": "tiny string substitution",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "template",
     "substitution",
