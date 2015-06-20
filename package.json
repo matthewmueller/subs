@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "dot-prop": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewmueller/subs.git"
+  }  
 }
